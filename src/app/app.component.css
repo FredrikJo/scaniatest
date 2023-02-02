@@ -1,0 +1,71 @@
+.scaniaheader {
+  background: #041E42;
+  width: 1584px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+}
+
+.scaniaheadertext {
+  width: 72px;
+  height: 16px;
+  left: 24px;
+  top: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+  position: absolute;
+}
+
+.scaniaheaderdivider {
+  border-left: 1px solid #0F3263;
+  height: 64px;
+  position: absolute;
+  left: 1523px;
+}
+
+.scaniaheaderlogo {
+  left: 1538px;
+  top: 16px;
+  position: absolute;
+}
+
+.scaniatitle {
+  left: -19.3%;
+  right: 0%;
+  top: 65px;
+  bottom: 0%;
+  height: 68px;
+  width: 1584px;
+  background: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.scaniatitletext {
+  position: absolute;
+  width: 167px;
+  left: 35px;
+  top: 86px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  color: #041E42;
+}
+
+.scaniadropdown {
+  margin-left: 35px;
+}
+
+.scaniatable {
+  max-width: 768px;
+  min-width: 768px;
+  margin-left: 35px;
+}
+

@@ -1,0 +1,12 @@
+<div class="scaniadropdownrow">
+<mat-form-field appearance="fill">
+  <mat-label>Select distance</mat-label>
+  <mat-select [(value)]="selected" (selectionChange)="addNewItem($event)">
+    <mat-option *ngFor="let distance of distances" [value]="distance.value">
+      {{distance.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<button mat-button color="primary" (click)="reset()">Reset</button>
+</div>
